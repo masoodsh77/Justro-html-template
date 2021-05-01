@@ -1,0 +1,46 @@
+html , body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.Menu{
+    overflow: hidden !important;
+    height: 70px;
+}
+.navbar{
+    justify-content: flex-start !important;
+    flex-direction: row-reverse !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(20, 148, 73) !important;
+    border:none !important;
+}
+.navbar-brand{
+    color: rgb(20, 148, 73) !important;
+}
+.navbar-brand a{
+    z-index: 2 !important;
+}
+.loginBTN{
+    border-radius: 50px;
+    width: 6rem;
+    background-color: rgb(214, 103, 13);
+    color: white;
+    z-index: 2;
+}
+.navbar-nav{
+    direction: rtl;
+}
+.LeftImg img{
+    position: absolute;
+    z-index: 1;
+    width: 15rem;
+}
+.RightImg img{
+    position: absolute;
+    z-index: 0;
+    width: 18rem;
+    right: 0;
+
+}
