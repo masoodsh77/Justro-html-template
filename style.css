@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(./assetes/fonts/Shabnam.woff);
+}
 html , body {
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: "shabnam" !important;
 }
 .Menu{
     overflow: hidden !important;
@@ -42,5 +47,15 @@ html , body {
     z-index: 0;
     width: 18rem;
     right: 0;
-
+}
+.Slider{
+    height: 36rem;
+    direction: rtl;
+}
+.Slider h2{
+    color: rgb(20, 148, 73);
+}
+.HrDiv{
+    border-bottom: 5px rgb(20, 148, 73) solid;
+    width: 5rem;
 }
