@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(./assetes/fonts/Shabnam.woff);
+}
+html , body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "shabnam" !important;
+}
+.Menu{
+    overflow: hidden !important;
+    height: 70px;
+}
+.navbar{
+    justify-content: flex-start !important;
+    flex-direction: row-reverse !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(20, 148, 73) !important;
+    border:none !important;
+}
+.navbar-brand{
+    color: rgb(20, 148, 73) !important;
+}
+.navbar-brand a{
+    z-index: 2 !important;
+}
+.loginBTN{
+    border-radius: 50px;
+    width: 6rem;
+    background-color: rgb(214, 103, 13);
+    color: white;
+    z-index: 2;
+}
+.navbar-nav{
+    direction: rtl;
+}
+.LeftImg img{
+    position: absolute;
+    z-index: 1;
+    width: 15rem;
+}
+.RightImg img{
+    position: absolute;
+    z-index: 0;
+    width: 18rem;
+    right: 0;
+}
+.Slider{
+    height: 36rem;
+    direction: rtl;
+}
+h2{
+    color: rgb(20, 148, 73);
+}
+.HrDiv{
+    border-bottom: 5px rgb(20, 148, 73) solid;
+    width: 5rem;
+}
+.aplication{
+    direction: rtl;
+    height: 36rem;
+}
+.row{
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.PhonePic{
+    width: 400px;
+}
+@media only screen and (max-width:600px){
+    .PhonePic{
+        width: 100%;
+    }
+}
+.options{
+    border: rgb(20, 148, 73) 1px solid;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: rgb(20, 148, 73);
+    background-color: white;
+    z-index: 2;
+}
+.options img{
+    width: 2rem;
+    height: 2rem;
+}
+.verticalHR{
+    border: rgb(20, 148, 73) 1px solid;
+    width:2px;
+    height: 100%;
+    position: absolute;
+}
