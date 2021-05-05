@@ -61,7 +61,10 @@ h2{
 }
 .aplication{
     direction: rtl;
-    height: 36rem;
+    min-height: 34rem;
+}
+.test{
+    height: 34rem;
 }
 .row{
     width: 100% !important;
@@ -71,11 +74,7 @@ h2{
 .PhonePic{
     width: 400px;
 }
-@media only screen and (max-width:600px){
-    .PhonePic{
-        width: 100%;
-    }
-}
+
 .options{
     border: rgb(20, 148, 73) 1px solid;
     border-radius: 50%;
@@ -92,6 +91,94 @@ h2{
 .verticalHR{
     border: rgb(20, 148, 73) 1px solid;
     width:2px;
-    height: 100%;
+    height: 34rem;
     position: absolute;
+}
+.DownloadBox{
+    width: 100%;
+    direction: rtl;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    box-shadow: lightgray 0 0 20px 5px;
+    margin-bottom: 50px;
+}
+.formControl{
+    position: relative;
+}
+.DownloadForm input{
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 30px;
+    padding: 0 5px 0 95px ;
+    text-align: left;
+}
+.DownloadForm input:focus{
+   outline: none; 
+}
+
+.DownloadForm button{
+    border-radius: 20px;
+    background-color:rgb(214, 103, 13);
+    color: white;
+    width: 90px;
+    position: absolute;
+    left: 0;
+}
+.buttonGroup button{
+    border-radius: 20px;border: none;
+    background: rgb(3,80,13);
+    background: linear-gradient(0deg, rgba(3,80,13,1) 0%, rgba(12,218,160,1) 36%, rgba(12,218,88,1) 100%);
+    padding: 5px 10px;
+    color: white;
+}
+.backgroundTravel{
+    position: relative;
+    background-image: url(./assetes/img/022_bg_amadegisafar.svg);
+    background-size: cover ;
+    height: 15rem;
+}
+.backgroundTravel img{
+    position: absolute;
+    z-index: 1;
+}
+.backgroundTravel h3{
+    z-index: 3 !important;
+}
+.buttonTravel{
+    width: 100%;
+}
+.buttonTravel button{
+    border-radius: 20px;
+    background-color:rgb(214, 103, 13);
+    color: white;
+    width: 120px;
+}
+.travelIdea{
+    overflow-x: scroll
+}
+.Footer{
+    background-image: url(./assetes/img/025_footer_Bg.svg);
+    height: 10rem;
+    background-size: cover;
+}
+@media only screen and (max-width:600px){
+    .PhonePic{
+        width: 100%;
+    }
+    .box{
+        box-shadow: none;
+    }
+    .backgroundTravel{
+        background-image: url(./assetes/img/023_amadegisafar.jpg);  
+        height: 23rem; 
+    }
+    .backgroundTravel h3{
+        color: rgb(3,80,13) !important;
+    }
+    .backgroundTravel p {
+        color: black !important;
+    }
 }
